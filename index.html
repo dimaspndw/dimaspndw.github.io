@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nama Kamu | Developer Aplikasi Mobile & Web</title>
+    <meta name="description" content="Portofolio aplikasi yang sudah saya bangun, dari ide sampai rilis.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="nav">
+        <a href="#top" class="logo">NamaKamu<span>.dev</span></a>
+        <button class="burger" aria-label="Buka menu" aria-expanded="false"
+            onclick="toggleMenu(this)"><i></i><i></i></button>
+        <nav id="menu">
+            <a href="#proyek">Proyek</a>
+            <a href="#keahlian">Keahlian</a>
+            <a href="#proses">Cara kerja</a>
+            <a href="#kontak" class="btn btn-small">Ajak kerja sama</a>
+        </nav>
+    </header>
+
+    <main id="top">
+
+        <!-- HERO -->
+        <section class="hero wrap">
+            <div class="hero-text">
+                <p class="badge"><span class="dot"></span> Terbuka untuk proyek baru</p>
+                <h1>Aplikasi yang dipakai orang setiap hari, dibuat dengan rapi.</h1>
+                <p class="lead">Saya <strong>Nama Kamu</strong>, developer aplikasi. Saya membangun produk dari ide,
+                    desain, sampai rilis, dan menjaganya tetap berjalan setelah rilis.</p>
+                <div class="cta">
+                    <a href="#proyek" class="btn">Lihat proyek saya</a>
+                    <a href="#kontak" class="btn btn-ghost">Diskusi proyek</a>
+                </div>
+                <ul class="stats">
+                    <li><b>12+</b> aplikasi dirilis</li>
+                    <li><b>5 th</b> pengalaman</li>
+                    <li><b>98%</b> klien puas</li>
+                </ul>
+            </div>
+
+            <div class="hero-visual" aria-hidden="true">
+                <div class="phone p1">
+                    <div class="screen s1"><i></i><i></i><i></i></div>
+                </div>
+                <div class="phone p2">
+                    <div class="screen s2"><i></i><i></i><i></i></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROYEK -->
+        <section id="proyek" class="wrap section">
+            <h2>Proyek yang sudah saya kerjakan</h2>
+            <p class="sub">Setiap aplikasi di bawah ini sudah dipakai pengguna nyata.</p>
+
+            <div class="grid">
+
+                <!-- ===== SALIN BLOK article INI UNTUK MENAMBAH PROYEK ===== -->
+                <article class="card">
+                    <div class="shot g1">
+                        <div class="mini"><i></i><i></i><i></i></div>
+                    </div>
+                    <div class="body">
+                        <h3>Nama Aplikasi 1</h3>
+                        <p>Aplikasi pemesanan makanan untuk UMKM. Pesanan naik 40% dalam 3 bulan pertama.</p>
+                        <ul class="tags">
+                            <li>Flutter</li>
+                            <li>Firebase</li>
+                            <li>Midtrans</li>
+                        </ul>
+                        <div class="links">
+                            <a href="#" target="_blank" rel="noopener">Coba demo</a>
+                            <a href="#" target="_blank" rel="noopener">Kode di GitHub</a>
+                        </div>
+                    </div>
+                </article>
+                <!-- ===== SAMPAI SINI ===== -->
+
+                <article class="card">
+                    <div class="shot g2">
+                        <div class="mini"><i></i><i></i><i></i></div>
+                    </div>
+                    <div class="body">
+                        <h3>Nama Aplikasi 2</h3>
+                        <p>Sistem absensi karyawan dengan lokasi dan foto selfie. Mengganti catatan manual 200 karyawan.
+                        </p>
+                        <ul class="tags">
+                            <li>Kotlin</li>
+                            <li>Laravel</li>
+                            <li>MySQL</li>
+                        </ul>
+                        <div class="links">
+                            <a href="#" target="_blank" rel="noopener">Coba demo</a>
+                            <a href="#" target="_blank" rel="noopener">Kode di GitHub</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="shot g3">
+                        <div class="mini"><i></i><i></i><i></i></div>
+                    </div>
+                    <div class="body">
+                        <h3>Nama Aplikasi 3</h3>
+                        <p>Dashboard penjualan real-time untuk toko online. Laporan harian tersedia tanpa buka
+                            spreadsheet.</p>
+                        <ul class="tags">
+                            <li>React</li>
+                            <li>Node.js</li>
+                            <li>PostgreSQL</li>
+                        </ul>
+                        <div class="links">
+                            <a href="#" target="_blank" rel="noopener">Coba demo</a>
+                            <a href="#" target="_blank" rel="noopener">Kode di GitHub</a>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- KEAHLIAN -->
+        <section id="keahlian" class="wrap section">
+            <h2>Yang bisa saya kerjakan</h2>
+            <div class="skills">
+                <div>
+                    <h3>Aplikasi mobile</h3>
+                    <p>Android dan iOS dengan Flutter atau Kotlin. Cepat, ringan, dan mulus di HP kelas menengah.</p>
+                </div>
+                <div>
+                    <h3>Web dan dashboard</h3>
+                    <p>Website, panel admin, dan sistem internal yang mudah dipakai tim non-teknis.</p>
+                </div>
+                <div>
+                    <h3>Backend dan API</h3>
+                    <p>Database, login, pembayaran, dan notifikasi yang aman dan siap bertumbuh.</p>
+                </div>
+                <div>
+                    <h3>Perawatan setelah rilis</h3>
+                    <p>Perbaikan bug, pembaruan fitur, dan pemantauan supaya aplikasi tetap sehat.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROSES -->
+        <section id="proses" class="wrap section">
+            <h2>Cara kerja sama saya</h2>
+            <ol class="steps">
+                <li><b>Diskusi</b><span>Kita bahas kebutuhan, target pengguna, dan anggaran. Gratis.</span></li>
+                <li><b>Rencana dan penawaran</b><span>Anda terima daftar fitur, jadwal, dan harga yang jelas.</span>
+                </li>
+                <li><b>Pengerjaan</b><span>Anda bisa mencoba hasilnya setiap minggu dan memberi masukan.</span></li>
+                <li><b>Rilis dan dukungan</b><span>Aplikasi tayang, lalu saya tetap mendampingi.</span></li>
+            </ol>
+        </section>
+
+        <!-- KONTAK -->
+        <section id="kontak" class="wrap section">
+            <div class="contact">
+                <h2>Punya ide aplikasi?</h2>
+                <p>Ceritakan singkat saja. Saya balas dalam 1 hari kerja.</p>
+                <div class="cta">
+                    <a class="btn" href="https://wa.me/6281234567890?text=Halo%2C%20saya%20tertarik%20kerja%20sama"
+                        target="_blank" rel="noopener">Chat WhatsApp</a>
+                    <a class="btn btn-ghost" href="mailto:email@kamu.com">email@kamu.com</a>
+                </div>
+                <p class="social"><a href="https://github.com/usernamekamu" target="_blank" rel="noopener">GitHub</a> <a
+                        href="https://linkedin.com/in/usernamekamu" target="_blank" rel="noopener">LinkedIn</a></p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="wrap foot">© <span id="yr">2026</span> Nama Kamu. Dibuat dengan HTML dan CSS.</footer>
+
+    <script>
+        function toggleMenu(b) { var o = document.getElementById('menu').classList.toggle('open'); b.setAttribute('aria-expanded', o) }
+        document.querySelectorAll('#menu a').forEach(function (a) { a.onclick = function () { document.getElementById('menu').classList.remove('open') } });
+        document.getElementById('yr').textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>
