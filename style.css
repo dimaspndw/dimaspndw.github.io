@@ -588,6 +588,37 @@ h2+.steps {
     font-size: .88rem
 }
 
+.shot img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    display: block
+}
+
+.shot {
+    padding-top: 0;
+    align-items: stretch
+}
+
+/* Logo di hero */
+.logo-visual {
+    display: grid;
+    place-items: center;
+    height: auto;
+    min-height: 400px
+}
+
+.logo-visual img {
+    position: relative;
+    z-index: 1;
+    width: min(450px, 70%);
+    height: auto;
+    filter: drop-shadow(0 20px 40px rgba(0, 0, 0, .45));
+    animation: float 6s ease-in-out infinite
+}
+
+
 /* RESPONSIF */
 @media (max-width:860px) {
     .hero {
